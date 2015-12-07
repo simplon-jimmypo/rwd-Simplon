@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+background-color: #EFEFEF
+}
+
+header{
+  height: 100px;
+  width: 100%;
+  /*background-color: blue; */
+}
+
+#galerie{
+  font-size:30px;
+}
+
+article{
+  height: 300px;
+  width: 400px;
+  background-color:#CCCCCC;
+  margin-left: 420px;
+}
+article h1{
+  text-align: center;
+  padding-top: 130px;
+}
+
+#infoPhoto{
+  height: 140px;
+  width: 100%;
+  background-color: #666;
+  margin-top: 20px;
+}
+#infoPhoto h1, p{
+  text-align: center;
+  color: white;
+}
+#infoPhoto h1{
+  padding-top: 5px;
+}
+#infoPhoto p{
+  margin-left: 270px;
+  margin-right: 270px;
+  padding-top: 5px;
+}
+
+/*********************************B L O C *LIGNE*PHOTO*TEXTE*/
+.lignePhotoEtText{
+height:300px;
+width: 100%;
+/*background-color: blue;*/
+margin-top: 50px;
+}
+
+img{
+  float: left;
+  margin-left: 60px;
+}
+
+.text h2{
+margin-left: 500px;
+padding-top: 80px;
+}
+
+.text p{
+  margin-top: 20px;
+  text-align: justify;
+  margin-left: 500px;
+  margin-right: 60px;
+  color: black
+}

@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+background-color: #EFEFEF
+}
+
+header{
+  height: 100px;
+  width: 100%;
+  background-color:#666;
+}
+
+#galerie{
+  font-size:30px;
+  color: #CCC
+}
+
+article{
+  display: none;
+  /*height: 300px;
+  width: 400px;
+  background-color:#CCCCCC;
+  margin-left: 400px;*/
+}
+article h1{
+  display: none;
+  /*text-align: center;
+  padding-top: 130px;*/
+}
+
+#infoPhoto{
+  display:none;
+  /*height: 140px;
+  width: 100%;
+  background-color: #666;
+  margin-top: 20px;*/
+}
+#infoPhoto h1, p{
+  display:none;
+  /*text-align: center;
+  color: white;*/
+}
+#infoPhoto h1{
+  display: none;
+  /*padding-top: 5px;*/
+}
+#infoPhoto p{
+  display: none;
+  /*margin-left: 270px;
+  margin-right: 270px;
+  padding-top: 5px;*/
+}
+
+/*********************************B L O C *LIGNE*PHOTO*TEXTE*/
+.lignePhotoEtText{
+height:400px;
+width: 100%;
+/*background-color: blue;*/
+margin-top: 50px;
+}
+
+img{
+  float: left;
+  margin-left: 60px;
+}
+
+.text h2{
+  float: left;
+  margin-left: 175px;
+  padding-top: 30px;
+  font-size: 1.3em;
+}
+
+.text p{
+  display: none;
+  /*margin-top: 20px;
+  text-align: justify;
+  margin-left: 500px;
+  margin-right: 60px;
+  color: black*/
+}
